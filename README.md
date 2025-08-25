@@ -28,25 +28,26 @@ This platform allows students to access learning materials, track progress, and 
 ---
 
 ## 🏗️ Project Structure
-lms
-│
-├── app/ # Next.js app directory (routes & pages)
-├── backend/ # API & server-side logic
-├── components/ # Reusable UI components
-├── frontend/ # Frontend-specific code
-├── hooks/ # Custom React hooks
-├── lib/ # Utilities & configurations
-├── public/ # Public assets (images, icons)
-├── styles/ # Global styles
-│
-├── .gitignore
-├── components.json
-├── next.config.mjs
-├── package.json
-├── pnpm-lock.yaml
-├── postcss.config.mjs
-├── tailwind.config.ts
-└── tsconfig.json
+ ```bash
+  lms
+  │
+  ├── app/ # Next.js app directory (routes & pages)
+  ├── backend/ # API & server-side logic
+  ├── components/ # Reusable UI components
+  ├── frontend/ # Frontend-specific code
+  ├── hooks/ # Custom React hooks
+  ├── lib/ # Utilities & configurations
+  ├── public/ # Public assets (images, icons)
+  ├── styles/ # Global styles
+  │
+  ├── .gitignore
+  ├── components.json
+  ├── next.config.mjs
+  ├── package.json
+  ├── pnpm-lock.yaml
+  ├── postcss.config.mjs
+  ├── tailwind.config.ts
+  └── tsconfig.json  ```
 
 
 
@@ -73,7 +74,7 @@ lms
 
 2. **Install dependencies**
    ```bash
-  pnpm install
+    pnpm install
 
 3. **Run the development server**
   ```bash
